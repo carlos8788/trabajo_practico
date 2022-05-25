@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="formulario.html">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+    <form action="post">
+        <fieldset>
+            <legend>Datos principales</legend>
+            <label for="nombre1">Ingrese su primer nombre: </label>
+            <input type="text" id="nombre1" required>
+            <br>
+            <br>
+            <label for="nombre2">Ingrese su segundo nombre: </label>
+            <input type="text" id="nombre2" required>
+            <br>
+            <br>
+            <label for="apellidos">Ingrese su apellido: </label>
+            <input type="text" id="apellidos" required>
+            <br>
+            <br>
+            <label for="edad">Ingrese su edad: </label>
+            <input type="number" id="edad" min="18" required>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Datos complementarios</legend>
+            <label for="mail">Ingrese su e-mail: </label>
+            <input type="email" id="mail">
+            <br>
+            <br>
+            <label for="facultad">Facultad:</label>
+            <select name="facultades" id="">
+                <option value="exactas">Ciencias Exactas</option>
+                <option value="economia">Economia</option>
+                <option value="salud">Ciencias de la Salud</option>
+                <option value="ing">Ingeniería</option>
+                <option value="nat">Naturales</option>
+                <option value="hum">Humanidades</option>
+            </select>
+            <br>
+            <br>
+            <label for="carrera">Carrera: </label>
+            <input type="text" name="carr" id="carre">
+            <br><br>
+            <div>
+                <label for="turno">Turno preferido para cursar: </label><br>
+                <input type="radio" name="turno" id="mañana"><label>Mañana</label><br>
+                <input type="radio" name="turno" id="tarde"><label>Tarde</label><br>
+                <input type="radio" name="turno" id="noche"><label>Noche</label>
+            </div>
+            
+        </fieldset>
+
+        <fieldset>
+            <style>
+                textarea{
+                    resize: none;
+                }
+            </style>
+            <legend>Realice una breve descripción</legend>
+            <textarea name="descripcion" id="descp" cols="70" rows="10"></textarea>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+        
+        
+    </form>
+    
+</body>
+</html>
+</body>
+</html>
